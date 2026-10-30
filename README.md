@@ -9,7 +9,7 @@ brew install --cask huluxiaohuowa/tap/linvell
 Linvell requires macOS 15.6 or later and supports Apple Silicon and Intel Macs.
 
 ```sh
-brew upgrade --cask --greedy huluxiaohuowa/tap/linvell
+brew upgrade --cask huluxiaohuowa/tap/linvell
 brew uninstall --cask huluxiaohuowa/tap/linvell
 ```
 
@@ -18,3 +18,5 @@ Linvell's GitHub release workflow updates `Casks/linvell.rb` after publishing a 
 Website: https://linvell.fuluwa.top/
 
 Source and releases: https://github.com/huluxiaohuowa/Linvell
+
+Starting with Linvell 0.2.3, Homebrew installations check the tap for updates and display the brew upgrade command; in-app replacement is reserved for manual installations.
