@@ -1,13 +1,12 @@
 cask "linvell" do
-  version "0.2.0"
-  sha256 "dad74d151100e862bf3f973fa68f81aa5ffc8342f65bea447ac46a40520ad546"
+  version "0.2.3"
+  sha256 "856dc6a7a1fb9096149899e33f74e9e0dc0c8bd0dbb5fe7e4192e882f7fb2bba"
 
   url "https://github.com/huluxiaohuowa/Linvell/releases/download/v#{version}/Linvell-#{version}-universal.zip"
   name "Linvell"
   desc "Native text and code editor"
   homepage "https://linvell.fuluwa.top/"
 
-  auto_updates true
   depends_on macos: :sequoia
 
   app "Linvell.app"
