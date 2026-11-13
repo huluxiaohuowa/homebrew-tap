@@ -1,6 +1,6 @@
 cask "linvell" do
-  version "0.2.21"
-  sha256 "76b69a644a54969be344389f6c6b11e6eb3e309d6d6201e78632a7c96e3e0f9b"
+  version "0.2.22"
+  sha256 "9db22f0ef0b727d4ea9ba166e2b390cb00261b93f97d16bd299b871351b6f218"
 
   url "https://github.com/huluxiaohuowa/Linvell/releases/download/v#{version}/Linvell-#{version}-universal.zip"
   name "Linvell"
